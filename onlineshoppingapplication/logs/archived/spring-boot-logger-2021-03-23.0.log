@@ -1,0 +1,519 @@
+2021-03-23 13:08:52,370 INFO org.springframework.boot.StartupInfoLogger [main] Starting CilentApplication using Java 1.8.0_281 on DESKTOP-HKAVDRF with PID 12736 (C:\Users\Nilanjan Mukherjee\Desktop\onlineshoppingapplication\onlineshoppingapplication\bin\main started by Nilanjan Mukherjee in C:\Users\Nilanjan Mukherjee\Desktop\onlineshoppingapplication\onlineshoppingapplication)
+2021-03-23 13:08:52,384 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2021-03-23 13:08:58,562 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2021-03-23 13:08:59,210 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 561 ms. Found 7 JPA repository interfaces.
+2021-03-23 13:09:04,652 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat initialized with port(s): 8087 (http)
+2021-03-23 13:09:04,734 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing ProtocolHandler ["http-nio-8087"]
+2021-03-23 13:09:04,775 INFO org.apache.juli.logging.DirectJDKLog [main] Starting service [Tomcat]
+2021-03-23 13:09:04,777 INFO org.apache.juli.logging.DirectJDKLog [main] Starting Servlet engine: [Apache Tomcat/9.0.44]
+2021-03-23 13:09:05,485 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing Spring embedded WebApplicationContext
+2021-03-23 13:09:05,486 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 12646 ms
+2021-03-23 13:09:07,156 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Starting...
+2021-03-23 13:09:07,188 WARN com.zaxxer.hikari.util.DriverDataSource [main] Registered driver with driverClassName=oracle.jdbc.driver.OracleDriver was not found, trying direct instantiation.
+2021-03-23 13:09:11,733 INFO com.zaxxer.hikari.pool.PoolBase [main] HikariPool-1 - Driver does not support get/set network timeout for connections. (oracle.jdbc.driver.T4CConnection.getNetworkTimeout()I)
+2021-03-23 13:09:11,784 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Start completed.
+2021-03-23 13:09:12,437 INFO org.hibernate.jpa.internal.util.LogHelper [main] HHH000204: Processing PersistenceUnitInfo [name: default]
+2021-03-23 13:09:12,819 INFO org.hibernate.Version [main] HHH000412: Hibernate ORM core version 5.4.29.Final
+2021-03-23 13:09:14,595 INFO org.hibernate.annotations.common.reflection.java.JavaReflectionManager [main] HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2021-03-23 13:09:15,489 INFO org.hibernate.dialect.Dialect [main] HHH000400: Using dialect: org.hibernate.dialect.Oracle10gDialect
+2021-03-23 13:09:20,142 INFO org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator [main] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-03-23 13:09:20,211 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [main] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2021-03-23 13:09:24,986 WARN org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration [main] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2021-03-23 13:09:25,841 INFO springfox.documentation.spring.web.PropertySourcedRequestMappingHandlerMapping [main] Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2021-03-23 13:09:26,317 INFO org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [main] Initializing ExecutorService 'applicationTaskExecutor'
+2021-03-23 13:09:27,203 INFO org.apache.juli.logging.DirectJDKLog [main] Starting ProtocolHandler ["http-nio-8087"]
+2021-03-23 13:09:27,384 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat started on port(s): 8087 (http) with context path ''
+2021-03-23 13:09:27,404 INFO springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper [main] Context refreshed
+2021-03-23 13:09:27,541 INFO springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper [main] Found 1 custom documentation plugin(s)
+2021-03-23 13:09:28,229 INFO springfox.documentation.spring.web.scanners.ApiListingReferenceScanner [main] Scanning for api listing references
+2021-03-23 13:09:29,244 INFO springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator [main] Generating unique operation named: removeCustomerUsingDELETE_1
+2021-03-23 13:09:29,760 INFO org.springframework.boot.StartupInfoLogger [main] Started CilentApplication in 43.621 seconds (JVM running for 48.248)
+2021-03-23 13:12:34,793 INFO org.apache.juli.logging.DirectJDKLog [http-nio-8087-exec-2] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-03-23 13:12:34,796 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-8087-exec-2] Initializing Servlet 'dispatcherServlet'
+2021-03-23 13:12:34,802 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-8087-exec-2] Completed initialization in 4 ms
+2021-03-23 13:12:35,358 INFO com.cg.onlineshopping.controller.CustomerRestController [http-nio-8087-exec-2] Customer addCustomer()
+2021-03-23 13:12:35,360 INFO com.cg.onlineshopping.service.CustomerServiceImpl [http-nio-8087-exec-2] Customer addCustomer()
+2021-03-23 14:08:34,658 INFO org.springframework.boot.StartupInfoLogger [main] Starting CilentApplication using Java 1.8.0_281 on DESKTOP-HKAVDRF with PID 9488 (C:\Users\Nilanjan Mukherjee\Desktop\onlineshoppingapplication\onlineshoppingapplication\bin\main started by Nilanjan Mukherjee in C:\Users\Nilanjan Mukherjee\Desktop\onlineshoppingapplication\onlineshoppingapplication)
+2021-03-23 14:08:34,690 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2021-03-23 14:08:44,194 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2021-03-23 14:08:44,855 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 579 ms. Found 7 JPA repository interfaces.
+2021-03-23 14:08:49,972 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat initialized with port(s): 8087 (http)
+2021-03-23 14:08:50,070 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing ProtocolHandler ["http-nio-8087"]
+2021-03-23 14:08:50,085 INFO org.apache.juli.logging.DirectJDKLog [main] Starting service [Tomcat]
+2021-03-23 14:08:50,087 INFO org.apache.juli.logging.DirectJDKLog [main] Starting Servlet engine: [Apache Tomcat/9.0.44]
+2021-03-23 14:08:50,917 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing Spring embedded WebApplicationContext
+2021-03-23 14:08:50,919 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 13633 ms
+2021-03-23 14:08:56,663 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Starting...
+2021-03-23 14:08:56,788 WARN com.zaxxer.hikari.util.DriverDataSource [main] Registered driver with driverClassName=oracle.jdbc.driver.OracleDriver was not found, trying direct instantiation.
+2021-03-23 14:09:01,542 INFO com.zaxxer.hikari.pool.PoolBase [main] HikariPool-1 - Driver does not support get/set network timeout for connections. (oracle.jdbc.driver.T4CConnection.getNetworkTimeout()I)
+2021-03-23 14:09:01,572 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Start completed.
+2021-03-23 14:09:02,191 INFO org.hibernate.jpa.internal.util.LogHelper [main] HHH000204: Processing PersistenceUnitInfo [name: default]
+2021-03-23 14:09:02,622 INFO org.hibernate.Version [main] HHH000412: Hibernate ORM core version 5.4.29.Final
+2021-03-23 14:09:04,420 INFO org.hibernate.annotations.common.reflection.java.JavaReflectionManager [main] HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2021-03-23 14:09:05,309 INFO org.hibernate.dialect.Dialect [main] HHH000400: Using dialect: org.hibernate.dialect.Oracle10gDialect
+2021-03-23 14:09:11,752 INFO org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator [main] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-03-23 14:09:11,824 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [main] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2021-03-23 14:09:18,410 WARN org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration [main] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2021-03-23 14:09:19,907 INFO springfox.documentation.spring.web.PropertySourcedRequestMappingHandlerMapping [main] Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2021-03-23 14:09:20,514 INFO org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [main] Initializing ExecutorService 'applicationTaskExecutor'
+2021-03-23 14:09:21,832 INFO org.apache.juli.logging.DirectJDKLog [main] Starting ProtocolHandler ["http-nio-8087"]
+2021-03-23 14:09:22,018 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat started on port(s): 8087 (http) with context path ''
+2021-03-23 14:09:22,021 INFO springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper [main] Context refreshed
+2021-03-23 14:09:22,206 INFO springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper [main] Found 1 custom documentation plugin(s)
+2021-03-23 14:09:22,875 INFO springfox.documentation.spring.web.scanners.ApiListingReferenceScanner [main] Scanning for api listing references
+2021-03-23 14:09:24,074 INFO springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator [main] Generating unique operation named: removeCustomerUsingDELETE_1
+2021-03-23 14:09:24,763 INFO org.springframework.boot.StartupInfoLogger [main] Started CilentApplication in 55.26 seconds (JVM running for 59.68)
+2021-03-23 14:09:36,717 INFO org.apache.juli.logging.DirectJDKLog [http-nio-8087-exec-2] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-03-23 14:09:36,720 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-8087-exec-2] Initializing Servlet 'dispatcherServlet'
+2021-03-23 14:09:36,726 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-8087-exec-2] Completed initialization in 4 ms
+2021-03-23 14:10:50,942 ERROR com.cg.onlineshopping.exception.GlobalExceptionHandler [http-nio-8087-exec-3] ProductNotFound
+2021-03-23 14:15:57,185 INFO org.springframework.boot.StartupInfoLogger [main] Starting CilentApplication using Java 1.8.0_281 on DESKTOP-HKAVDRF with PID 7892 (C:\Users\Nilanjan Mukherjee\Desktop\onlineshoppingapplication\onlineshoppingapplication\bin\main started by Nilanjan Mukherjee in C:\Users\Nilanjan Mukherjee\Desktop\onlineshoppingapplication\onlineshoppingapplication)
+2021-03-23 14:15:57,215 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2021-03-23 14:16:05,417 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2021-03-23 14:16:07,792 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 2269 ms. Found 7 JPA repository interfaces.
+2021-03-23 14:16:16,727 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat initialized with port(s): 8087 (http)
+2021-03-23 14:16:16,798 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing ProtocolHandler ["http-nio-8087"]
+2021-03-23 14:16:16,816 INFO org.apache.juli.logging.DirectJDKLog [main] Starting service [Tomcat]
+2021-03-23 14:16:16,818 INFO org.apache.juli.logging.DirectJDKLog [main] Starting Servlet engine: [Apache Tomcat/9.0.44]
+2021-03-23 14:16:17,873 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing Spring embedded WebApplicationContext
+2021-03-23 14:16:17,877 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 20249 ms
+2021-03-23 14:16:19,828 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Starting...
+2021-03-23 14:16:19,846 WARN com.zaxxer.hikari.util.DriverDataSource [main] Registered driver with driverClassName=oracle.jdbc.driver.OracleDriver was not found, trying direct instantiation.
+2021-03-23 14:16:24,318 INFO com.zaxxer.hikari.pool.PoolBase [main] HikariPool-1 - Driver does not support get/set network timeout for connections. (oracle.jdbc.driver.T4CConnection.getNetworkTimeout()I)
+2021-03-23 14:16:24,349 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Start completed.
+2021-03-23 14:16:24,855 INFO org.hibernate.jpa.internal.util.LogHelper [main] HHH000204: Processing PersistenceUnitInfo [name: default]
+2021-03-23 14:16:29,494 INFO org.hibernate.Version [main] HHH000412: Hibernate ORM core version 5.4.29.Final
+2021-03-23 14:16:31,322 INFO org.hibernate.annotations.common.reflection.java.JavaReflectionManager [main] HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2021-03-23 14:16:32,285 INFO org.hibernate.dialect.Dialect [main] HHH000400: Using dialect: org.hibernate.dialect.Oracle10gDialect
+2021-03-23 14:16:40,023 INFO org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator [main] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-03-23 14:16:40,099 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [main] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2021-03-23 14:16:47,234 WARN org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration [main] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2021-03-23 14:16:48,685 INFO springfox.documentation.spring.web.PropertySourcedRequestMappingHandlerMapping [main] Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2021-03-23 14:16:49,552 INFO org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [main] Initializing ExecutorService 'applicationTaskExecutor'
+2021-03-23 14:16:50,907 INFO org.apache.juli.logging.DirectJDKLog [main] Starting ProtocolHandler ["http-nio-8087"]
+2021-03-23 14:16:51,147 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat started on port(s): 8087 (http) with context path ''
+2021-03-23 14:16:51,155 INFO springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper [main] Context refreshed
+2021-03-23 14:16:51,394 INFO springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper [main] Found 1 custom documentation plugin(s)
+2021-03-23 14:16:52,173 INFO springfox.documentation.spring.web.scanners.ApiListingReferenceScanner [main] Scanning for api listing references
+2021-03-23 14:16:53,781 INFO springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator [main] Generating unique operation named: removeCustomerUsingDELETE_1
+2021-03-23 14:16:54,985 INFO org.springframework.boot.StartupInfoLogger [main] Started CilentApplication in 62.173 seconds (JVM running for 67.126)
+2021-03-23 14:17:16,344 INFO org.apache.juli.logging.DirectJDKLog [http-nio-8087-exec-1] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-03-23 14:17:16,349 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-8087-exec-1] Initializing Servlet 'dispatcherServlet'
+2021-03-23 14:17:16,372 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-8087-exec-1] Completed initialization in 6 ms
+2021-03-23 14:17:28,924 ERROR com.cg.onlineshopping.exception.GlobalExceptionHandler [http-nio-8087-exec-3] ProductNotFound
+2021-03-23 16:19:13,429 INFO org.springframework.boot.StartupInfoLogger [main] Starting CustomerServiceTest using Java 1.8.0_281 on DESKTOP-HKAVDRF with PID 9416 (started by Nilanjan Mukherjee in C:\Users\Nilanjan Mukherjee\Desktop\onlineshoppingapplication\onlineshoppingapplication)
+2021-03-23 16:19:13,472 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2021-03-23 16:19:38,877 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2021-03-23 16:19:39,543 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 607 ms. Found 7 JPA repository interfaces.
+2021-03-23 16:19:50,431 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Starting...
+2021-03-23 16:19:50,503 WARN com.zaxxer.hikari.util.DriverDataSource [main] Registered driver with driverClassName=oracle.jdbc.driver.OracleDriver was not found, trying direct instantiation.
+2021-03-23 16:19:59,728 INFO com.zaxxer.hikari.pool.PoolBase [main] HikariPool-1 - Driver does not support get/set network timeout for connections. (oracle.jdbc.driver.T4CConnection.getNetworkTimeout()I)
+2021-03-23 16:19:59,768 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Start completed.
+2021-03-23 16:20:00,865 INFO org.hibernate.jpa.internal.util.LogHelper [main] HHH000204: Processing PersistenceUnitInfo [name: default]
+2021-03-23 16:20:01,543 INFO org.hibernate.Version [main] HHH000412: Hibernate ORM core version 5.4.29.Final
+2021-03-23 16:20:02,103 INFO org.hibernate.annotations.common.reflection.java.JavaReflectionManager [main] HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2021-03-23 16:20:03,566 INFO org.hibernate.dialect.Dialect [main] HHH000400: Using dialect: org.hibernate.dialect.Oracle10gDialect
+2021-03-23 16:20:08,439 INFO org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator [main] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-03-23 16:20:08,884 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [main] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2021-03-23 16:20:15,939 WARN org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration [main] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2021-03-23 16:20:18,828 INFO springfox.documentation.spring.web.PropertySourcedRequestMappingHandlerMapping [main] Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2021-03-23 16:20:21,629 INFO org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [main] Initializing ExecutorService 'applicationTaskExecutor'
+2021-03-23 16:20:25,008 INFO springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper [main] Context refreshed
+2021-03-23 16:20:25,291 INFO springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper [main] Found 1 custom documentation plugin(s)
+2021-03-23 16:20:26,126 INFO springfox.documentation.spring.web.scanners.ApiListingReferenceScanner [main] Scanning for api listing references
+2021-03-23 16:20:27,853 INFO springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator [main] Generating unique operation named: removeCustomerUsingDELETE_1
+2021-03-23 16:20:28,715 INFO org.springframework.boot.StartupInfoLogger [main] Started CustomerServiceTest in 78.87 seconds (JVM running for 94.81)
+2021-03-23 16:20:29,321 INFO com.cg.onlineshopping.service.CustomerServiceImpl [main] Customer addCustomer()
+2021-03-23 16:20:29,981 INFO com.cg.onlineshopping.service.CustomerServiceImpl [main] Customer updateCustomer()
+2021-03-23 16:23:13,653 INFO org.springframework.boot.StartupInfoLogger [main] Starting CustomerServiceTest using Java 1.8.0_281 on DESKTOP-HKAVDRF with PID 9244 (started by Nilanjan Mukherjee in C:\Users\Nilanjan Mukherjee\Desktop\onlineshoppingapplication\onlineshoppingapplication)
+2021-03-23 16:23:13,672 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2021-03-23 16:23:18,559 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2021-03-23 16:23:19,057 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 459 ms. Found 7 JPA repository interfaces.
+2021-03-23 16:23:25,332 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Starting...
+2021-03-23 16:23:25,355 WARN com.zaxxer.hikari.util.DriverDataSource [main] Registered driver with driverClassName=oracle.jdbc.driver.OracleDriver was not found, trying direct instantiation.
+2021-03-23 16:23:27,827 INFO com.zaxxer.hikari.pool.PoolBase [main] HikariPool-1 - Driver does not support get/set network timeout for connections. (oracle.jdbc.driver.T4CConnection.getNetworkTimeout()I)
+2021-03-23 16:23:27,842 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Start completed.
+2021-03-23 16:23:28,428 INFO org.hibernate.jpa.internal.util.LogHelper [main] HHH000204: Processing PersistenceUnitInfo [name: default]
+2021-03-23 16:23:28,828 INFO org.hibernate.Version [main] HHH000412: Hibernate ORM core version 5.4.29.Final
+2021-03-23 16:23:29,345 INFO org.hibernate.annotations.common.reflection.java.JavaReflectionManager [main] HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2021-03-23 16:23:30,406 INFO org.hibernate.dialect.Dialect [main] HHH000400: Using dialect: org.hibernate.dialect.Oracle10gDialect
+2021-03-23 16:23:33,724 INFO org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator [main] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-03-23 16:23:34,221 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [main] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2021-03-23 16:23:41,916 WARN org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration [main] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2021-03-23 16:23:44,854 INFO springfox.documentation.spring.web.PropertySourcedRequestMappingHandlerMapping [main] Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2021-03-23 16:23:47,500 INFO org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [main] Initializing ExecutorService 'applicationTaskExecutor'
+2021-03-23 16:23:50,786 INFO springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper [main] Context refreshed
+2021-03-23 16:23:51,024 INFO springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper [main] Found 1 custom documentation plugin(s)
+2021-03-23 16:23:51,955 INFO springfox.documentation.spring.web.scanners.ApiListingReferenceScanner [main] Scanning for api listing references
+2021-03-23 16:23:53,198 INFO springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator [main] Generating unique operation named: removeCustomerUsingDELETE_1
+2021-03-23 16:23:53,984 INFO org.springframework.boot.StartupInfoLogger [main] Started CustomerServiceTest in 42.326 seconds (JVM running for 48.764)
+2021-03-23 16:23:54,650 INFO com.cg.onlineshopping.service.CustomerServiceImpl [main] Customer addCustomer()
+2021-03-23 16:23:54,950 INFO com.cg.onlineshopping.service.CustomerServiceImpl [main] Customer updateCustomer()
+2021-03-23 16:23:54,969 INFO com.cg.onlineshopping.service.CustomerServiceImpl [main] Customer viewCustomerById()
+2021-03-23 16:25:01,054 INFO org.springframework.boot.StartupInfoLogger [main] Starting CustomerServiceTest using Java 1.8.0_281 on DESKTOP-HKAVDRF with PID 5824 (started by Nilanjan Mukherjee in C:\Users\Nilanjan Mukherjee\Desktop\onlineshoppingapplication\onlineshoppingapplication)
+2021-03-23 16:25:01,072 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2021-03-23 16:25:06,504 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2021-03-23 16:25:06,999 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 458 ms. Found 7 JPA repository interfaces.
+2021-03-23 16:25:13,061 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Starting...
+2021-03-23 16:25:13,080 WARN com.zaxxer.hikari.util.DriverDataSource [main] Registered driver with driverClassName=oracle.jdbc.driver.OracleDriver was not found, trying direct instantiation.
+2021-03-23 16:25:15,702 INFO com.zaxxer.hikari.pool.PoolBase [main] HikariPool-1 - Driver does not support get/set network timeout for connections. (oracle.jdbc.driver.T4CConnection.getNetworkTimeout()I)
+2021-03-23 16:25:15,722 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Start completed.
+2021-03-23 16:25:16,721 INFO org.hibernate.jpa.internal.util.LogHelper [main] HHH000204: Processing PersistenceUnitInfo [name: default]
+2021-03-23 16:25:17,241 INFO org.hibernate.Version [main] HHH000412: Hibernate ORM core version 5.4.29.Final
+2021-03-23 16:25:17,684 INFO org.hibernate.annotations.common.reflection.java.JavaReflectionManager [main] HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2021-03-23 16:25:18,608 INFO org.hibernate.dialect.Dialect [main] HHH000400: Using dialect: org.hibernate.dialect.Oracle10gDialect
+2021-03-23 16:25:22,121 INFO org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator [main] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-03-23 16:25:22,549 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [main] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2021-03-23 16:25:29,592 WARN org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration [main] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2021-03-23 16:25:31,643 INFO springfox.documentation.spring.web.PropertySourcedRequestMappingHandlerMapping [main] Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2021-03-23 16:25:35,005 INFO org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [main] Initializing ExecutorService 'applicationTaskExecutor'
+2021-03-23 16:25:39,111 INFO springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper [main] Context refreshed
+2021-03-23 16:25:39,427 INFO springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper [main] Found 1 custom documentation plugin(s)
+2021-03-23 16:25:40,292 INFO springfox.documentation.spring.web.scanners.ApiListingReferenceScanner [main] Scanning for api listing references
+2021-03-23 16:25:42,301 INFO springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator [main] Generating unique operation named: removeCustomerUsingDELETE_1
+2021-03-23 16:25:42,960 INFO org.springframework.boot.StartupInfoLogger [main] Started CustomerServiceTest in 43.857 seconds (JVM running for 49.937)
+2021-03-23 16:25:43,454 INFO com.cg.onlineshopping.service.CustomerServiceImpl [main] Customer addCustomer()
+2021-03-23 16:25:44,194 INFO com.cg.onlineshopping.service.CustomerServiceImpl [main] Customer updateCustomer()
+2021-03-23 16:25:44,233 INFO com.cg.onlineshopping.service.CustomerServiceImpl [main] Customer viewCustomerById()
+2021-03-23 16:37:34,402 INFO org.springframework.boot.StartupInfoLogger [main] Starting CustomerServiceTest using Java 1.8.0_281 on DESKTOP-HKAVDRF with PID 12040 (started by Nilanjan Mukherjee in C:\Users\Nilanjan Mukherjee\Desktop\onlineshoppingapplication\onlineshoppingapplication)
+2021-03-23 16:37:34,421 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2021-03-23 16:37:39,394 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2021-03-23 16:37:39,875 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 445 ms. Found 7 JPA repository interfaces.
+2021-03-23 16:37:45,481 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Starting...
+2021-03-23 16:37:45,500 WARN com.zaxxer.hikari.util.DriverDataSource [main] Registered driver with driverClassName=oracle.jdbc.driver.OracleDriver was not found, trying direct instantiation.
+2021-03-23 16:37:47,766 INFO com.zaxxer.hikari.pool.PoolBase [main] HikariPool-1 - Driver does not support get/set network timeout for connections. (oracle.jdbc.driver.T4CConnection.getNetworkTimeout()I)
+2021-03-23 16:37:47,782 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Start completed.
+2021-03-23 16:37:48,278 INFO org.hibernate.jpa.internal.util.LogHelper [main] HHH000204: Processing PersistenceUnitInfo [name: default]
+2021-03-23 16:37:48,917 INFO org.hibernate.Version [main] HHH000412: Hibernate ORM core version 5.4.29.Final
+2021-03-23 16:37:49,330 INFO org.hibernate.annotations.common.reflection.java.JavaReflectionManager [main] HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2021-03-23 16:37:50,271 INFO org.hibernate.dialect.Dialect [main] HHH000400: Using dialect: org.hibernate.dialect.Oracle10gDialect
+2021-03-23 16:37:53,769 INFO org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator [main] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-03-23 16:37:54,236 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [main] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2021-03-23 16:37:59,945 WARN org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration [main] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2021-03-23 16:38:01,907 INFO springfox.documentation.spring.web.PropertySourcedRequestMappingHandlerMapping [main] Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2021-03-23 16:38:04,241 INFO org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [main] Initializing ExecutorService 'applicationTaskExecutor'
+2021-03-23 16:38:06,301 INFO springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper [main] Context refreshed
+2021-03-23 16:38:06,506 INFO springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper [main] Found 1 custom documentation plugin(s)
+2021-03-23 16:38:07,521 INFO springfox.documentation.spring.web.scanners.ApiListingReferenceScanner [main] Scanning for api listing references
+2021-03-23 16:38:09,094 INFO springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator [main] Generating unique operation named: removeCustomerUsingDELETE_1
+2021-03-23 16:38:09,835 INFO org.springframework.boot.StartupInfoLogger [main] Started CustomerServiceTest in 37.893 seconds (JVM running for 44.346)
+2021-03-23 16:38:10,391 INFO com.cg.onlineshopping.service.CustomerServiceImpl [main] Customer addCustomer()
+2021-03-23 16:38:10,962 INFO com.cg.onlineshopping.service.CustomerServiceImpl [main] Customer updateCustomer()
+2021-03-23 16:38:10,999 INFO com.cg.onlineshopping.service.CustomerServiceImpl [main] Customer viewAllCustomer()
+2021-03-23 16:38:11,061 INFO com.cg.onlineshopping.service.CustomerServiceImpl [main] Customer viewCustomerById()
+2021-03-23 16:39:42,983 INFO org.springframework.boot.StartupInfoLogger [main] Starting CustomerServiceTest using Java 1.8.0_281 on DESKTOP-HKAVDRF with PID 12984 (started by Nilanjan Mukherjee in C:\Users\Nilanjan Mukherjee\Desktop\onlineshoppingapplication\onlineshoppingapplication)
+2021-03-23 16:39:43,020 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2021-03-23 16:39:50,779 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2021-03-23 16:39:51,583 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 740 ms. Found 7 JPA repository interfaces.
+2021-03-23 16:39:58,814 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Starting...
+2021-03-23 16:39:58,844 WARN com.zaxxer.hikari.util.DriverDataSource [main] Registered driver with driverClassName=oracle.jdbc.driver.OracleDriver was not found, trying direct instantiation.
+2021-03-23 16:40:01,593 INFO com.zaxxer.hikari.pool.PoolBase [main] HikariPool-1 - Driver does not support get/set network timeout for connections. (oracle.jdbc.driver.T4CConnection.getNetworkTimeout()I)
+2021-03-23 16:40:01,612 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Start completed.
+2021-03-23 16:40:02,187 INFO org.hibernate.jpa.internal.util.LogHelper [main] HHH000204: Processing PersistenceUnitInfo [name: default]
+2021-03-23 16:40:02,821 INFO org.hibernate.Version [main] HHH000412: Hibernate ORM core version 5.4.29.Final
+2021-03-23 16:40:03,171 INFO org.hibernate.annotations.common.reflection.java.JavaReflectionManager [main] HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2021-03-23 16:40:04,125 INFO org.hibernate.dialect.Dialect [main] HHH000400: Using dialect: org.hibernate.dialect.Oracle10gDialect
+2021-03-23 16:40:08,431 INFO org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator [main] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-03-23 16:40:08,480 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [main] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2021-03-23 16:40:18,595 WARN org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration [main] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2021-03-23 16:40:21,716 INFO springfox.documentation.spring.web.PropertySourcedRequestMappingHandlerMapping [main] Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2021-03-23 16:40:24,455 INFO org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [main] Initializing ExecutorService 'applicationTaskExecutor'
+2021-03-23 16:40:27,622 INFO springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper [main] Context refreshed
+2021-03-23 16:40:27,925 INFO springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper [main] Found 1 custom documentation plugin(s)
+2021-03-23 16:40:29,325 INFO springfox.documentation.spring.web.scanners.ApiListingReferenceScanner [main] Scanning for api listing references
+2021-03-23 16:40:31,048 INFO springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator [main] Generating unique operation named: removeCustomerUsingDELETE_1
+2021-03-23 16:40:32,240 INFO org.springframework.boot.StartupInfoLogger [main] Started CustomerServiceTest in 52.209 seconds (JVM running for 58.308)
+2021-03-23 16:40:32,816 INFO com.cg.onlineshopping.service.CustomerServiceImpl [main] Customer addCustomer()
+2021-03-23 16:40:33,741 INFO com.cg.onlineshopping.service.CustomerServiceImpl [main] Customer updateCustomer()
+2021-03-23 16:40:33,784 INFO com.cg.onlineshopping.service.CustomerServiceImpl [main] Customer viewAllCustomer()
+2021-03-23 16:40:33,850 INFO com.cg.onlineshopping.service.CustomerServiceImpl [main] Customer viewCustomerById()
+2021-03-23 16:54:09,116 INFO org.springframework.boot.StartupInfoLogger [main] Starting CustomerServiceTest using Java 1.8.0_281 on DESKTOP-HKAVDRF with PID 4836 (started by Nilanjan Mukherjee in C:\Users\Nilanjan Mukherjee\Desktop\onlineshoppingapplication\onlineshoppingapplication)
+2021-03-23 16:54:09,135 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2021-03-23 16:54:15,558 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2021-03-23 16:54:16,177 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 564 ms. Found 7 JPA repository interfaces.
+2021-03-23 16:54:22,520 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Starting...
+2021-03-23 16:54:22,543 WARN com.zaxxer.hikari.util.DriverDataSource [main] Registered driver with driverClassName=oracle.jdbc.driver.OracleDriver was not found, trying direct instantiation.
+2021-03-23 16:54:25,638 INFO com.zaxxer.hikari.pool.PoolBase [main] HikariPool-1 - Driver does not support get/set network timeout for connections. (oracle.jdbc.driver.T4CConnection.getNetworkTimeout()I)
+2021-03-23 16:54:25,662 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Start completed.
+2021-03-23 16:54:26,537 INFO org.hibernate.jpa.internal.util.LogHelper [main] HHH000204: Processing PersistenceUnitInfo [name: default]
+2021-03-23 16:54:27,272 INFO org.hibernate.Version [main] HHH000412: Hibernate ORM core version 5.4.29.Final
+2021-03-23 16:54:27,771 INFO org.hibernate.annotations.common.reflection.java.JavaReflectionManager [main] HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2021-03-23 16:54:29,066 INFO org.hibernate.dialect.Dialect [main] HHH000400: Using dialect: org.hibernate.dialect.Oracle10gDialect
+2021-03-23 16:54:32,471 INFO org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator [main] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-03-23 16:54:32,864 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [main] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2021-03-23 16:54:41,942 WARN org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration [main] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2021-03-23 16:54:45,202 INFO springfox.documentation.spring.web.PropertySourcedRequestMappingHandlerMapping [main] Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2021-03-23 16:54:48,356 INFO org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [main] Initializing ExecutorService 'applicationTaskExecutor'
+2021-03-23 16:54:50,847 INFO springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper [main] Context refreshed
+2021-03-23 16:54:51,050 INFO springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper [main] Found 1 custom documentation plugin(s)
+2021-03-23 16:54:51,794 INFO springfox.documentation.spring.web.scanners.ApiListingReferenceScanner [main] Scanning for api listing references
+2021-03-23 16:54:53,539 INFO springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator [main] Generating unique operation named: removeCustomerUsingDELETE_1
+2021-03-23 16:54:54,728 INFO org.springframework.boot.StartupInfoLogger [main] Started CustomerServiceTest in 47.678 seconds (JVM running for 54.318)
+2021-03-23 16:54:55,534 INFO com.cg.onlineshopping.service.CustomerServiceImpl [main] Customer addCustomer()
+2021-03-23 16:54:56,157 INFO com.cg.onlineshopping.service.CustomerServiceImpl [main] Customer updateCustomer()
+2021-03-23 16:54:56,181 INFO com.cg.onlineshopping.service.CustomerServiceImpl [main] Customer viewAllCustomer()
+2021-03-23 16:54:56,205 INFO com.cg.onlineshopping.service.CustomerServiceImpl [main] Customer viewCustomerByLocation()
+2021-03-23 16:54:56,270 INFO com.cg.onlineshopping.service.CustomerServiceImpl [main] Customer viewCustomerById()
+2021-03-23 16:57:41,391 INFO org.springframework.boot.StartupInfoLogger [main] Starting CustomerServiceTest using Java 1.8.0_281 on DESKTOP-HKAVDRF with PID 7644 (started by Nilanjan Mukherjee in C:\Users\Nilanjan Mukherjee\Desktop\onlineshoppingapplication\onlineshoppingapplication)
+2021-03-23 16:57:41,410 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2021-03-23 16:57:47,038 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2021-03-23 16:57:47,573 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 498 ms. Found 7 JPA repository interfaces.
+2021-03-23 16:57:54,677 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Starting...
+2021-03-23 16:57:54,713 WARN com.zaxxer.hikari.util.DriverDataSource [main] Registered driver with driverClassName=oracle.jdbc.driver.OracleDriver was not found, trying direct instantiation.
+2021-03-23 16:57:57,606 INFO com.zaxxer.hikari.pool.PoolBase [main] HikariPool-1 - Driver does not support get/set network timeout for connections. (oracle.jdbc.driver.T4CConnection.getNetworkTimeout()I)
+2021-03-23 16:57:57,651 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Start completed.
+2021-03-23 16:57:58,483 INFO org.hibernate.jpa.internal.util.LogHelper [main] HHH000204: Processing PersistenceUnitInfo [name: default]
+2021-03-23 16:57:59,139 INFO org.hibernate.Version [main] HHH000412: Hibernate ORM core version 5.4.29.Final
+2021-03-23 16:57:59,789 INFO org.hibernate.annotations.common.reflection.java.JavaReflectionManager [main] HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2021-03-23 16:58:01,308 INFO org.hibernate.dialect.Dialect [main] HHH000400: Using dialect: org.hibernate.dialect.Oracle10gDialect
+2021-03-23 16:58:06,113 INFO org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator [main] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-03-23 16:58:06,157 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [main] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2021-03-23 16:58:14,570 WARN org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration [main] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2021-03-23 16:58:17,819 INFO springfox.documentation.spring.web.PropertySourcedRequestMappingHandlerMapping [main] Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2021-03-23 16:58:21,069 INFO org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [main] Initializing ExecutorService 'applicationTaskExecutor'
+2021-03-23 16:58:23,458 INFO springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper [main] Context refreshed
+2021-03-23 16:58:23,639 INFO springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper [main] Found 1 custom documentation plugin(s)
+2021-03-23 16:58:24,557 INFO springfox.documentation.spring.web.scanners.ApiListingReferenceScanner [main] Scanning for api listing references
+2021-03-23 16:58:26,218 INFO springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator [main] Generating unique operation named: removeCustomerUsingDELETE_1
+2021-03-23 16:58:27,389 INFO org.springframework.boot.StartupInfoLogger [main] Started CustomerServiceTest in 48.043 seconds (JVM running for 53.655)
+2021-03-23 16:58:27,860 INFO com.cg.onlineshopping.service.CustomerServiceImpl [main] Customer addCustomer()
+2021-03-23 16:58:28,407 INFO com.cg.onlineshopping.service.CustomerServiceImpl [main] Customer updateCustomer()
+2021-03-23 16:58:28,485 INFO com.cg.onlineshopping.service.CustomerServiceImpl [main] Customer viewAllCustomer()
+2021-03-23 16:58:28,521 INFO com.cg.onlineshopping.service.CustomerServiceImpl [main] Customer viewCustomerByLocation()
+2021-03-23 16:58:28,561 INFO com.cg.onlineshopping.service.CustomerServiceImpl [main] Customer viewCustomerById()
+2021-03-23 17:08:29,196 INFO org.springframework.boot.StartupInfoLogger [main] Starting CustomerServiceTest using Java 1.8.0_281 on DESKTOP-HKAVDRF with PID 10948 (started by Nilanjan Mukherjee in C:\Users\Nilanjan Mukherjee\Desktop\onlineshoppingapplication\onlineshoppingapplication)
+2021-03-23 17:08:29,221 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2021-03-23 17:08:34,757 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2021-03-23 17:08:35,318 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 516 ms. Found 7 JPA repository interfaces.
+2021-03-23 17:08:41,577 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Starting...
+2021-03-23 17:08:41,609 WARN com.zaxxer.hikari.util.DriverDataSource [main] Registered driver with driverClassName=oracle.jdbc.driver.OracleDriver was not found, trying direct instantiation.
+2021-03-23 17:08:44,170 INFO com.zaxxer.hikari.pool.PoolBase [main] HikariPool-1 - Driver does not support get/set network timeout for connections. (oracle.jdbc.driver.T4CConnection.getNetworkTimeout()I)
+2021-03-23 17:08:44,209 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Start completed.
+2021-03-23 17:08:44,710 INFO org.hibernate.jpa.internal.util.LogHelper [main] HHH000204: Processing PersistenceUnitInfo [name: default]
+2021-03-23 17:08:45,195 INFO org.hibernate.Version [main] HHH000412: Hibernate ORM core version 5.4.29.Final
+2021-03-23 17:08:45,505 INFO org.hibernate.annotations.common.reflection.java.JavaReflectionManager [main] HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2021-03-23 17:08:46,335 INFO org.hibernate.dialect.Dialect [main] HHH000400: Using dialect: org.hibernate.dialect.Oracle10gDialect
+2021-03-23 17:08:50,824 INFO org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator [main] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-03-23 17:08:51,233 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [main] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2021-03-23 17:09:00,555 WARN org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration [main] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2021-03-23 17:09:05,195 INFO springfox.documentation.spring.web.PropertySourcedRequestMappingHandlerMapping [main] Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2021-03-23 17:09:07,801 INFO org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [main] Initializing ExecutorService 'applicationTaskExecutor'
+2021-03-23 17:09:09,851 INFO springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper [main] Context refreshed
+2021-03-23 17:09:10,028 INFO springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper [main] Found 1 custom documentation plugin(s)
+2021-03-23 17:09:10,777 INFO springfox.documentation.spring.web.scanners.ApiListingReferenceScanner [main] Scanning for api listing references
+2021-03-23 17:09:12,121 INFO springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator [main] Generating unique operation named: removeCustomerUsingDELETE_1
+2021-03-23 17:09:12,829 INFO org.springframework.boot.StartupInfoLogger [main] Started CustomerServiceTest in 45.601 seconds (JVM running for 52.162)
+2021-03-23 17:09:13,159 INFO com.cg.onlineshopping.service.CustomerServiceImpl [main] Customer addCustomer()
+2021-03-23 17:09:13,712 INFO com.cg.onlineshopping.service.CustomerServiceImpl [main] Customer updateCustomer()
+2021-03-23 17:09:13,750 INFO com.cg.onlineshopping.service.CustomerServiceImpl [main] Customer viewAllCustomer()
+2021-03-23 17:09:13,787 INFO com.cg.onlineshopping.service.CustomerServiceImpl [main] Customer viewCustomerById()
+2021-03-23 17:15:39,632 INFO org.springframework.boot.StartupInfoLogger [main] Starting CustomerServiceTest using Java 1.8.0_281 on DESKTOP-HKAVDRF with PID 1828 (started by Nilanjan Mukherjee in C:\Users\Nilanjan Mukherjee\Desktop\onlineshoppingapplication\onlineshoppingapplication)
+2021-03-23 17:15:39,650 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2021-03-23 17:15:48,483 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2021-03-23 17:15:49,637 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 1052 ms. Found 7 JPA repository interfaces.
+2021-03-23 17:15:58,043 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Starting...
+2021-03-23 17:15:58,075 WARN com.zaxxer.hikari.util.DriverDataSource [main] Registered driver with driverClassName=oracle.jdbc.driver.OracleDriver was not found, trying direct instantiation.
+2021-03-23 17:16:00,874 INFO com.zaxxer.hikari.pool.PoolBase [main] HikariPool-1 - Driver does not support get/set network timeout for connections. (oracle.jdbc.driver.T4CConnection.getNetworkTimeout()I)
+2021-03-23 17:16:00,891 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Start completed.
+2021-03-23 17:16:01,476 INFO org.hibernate.jpa.internal.util.LogHelper [main] HHH000204: Processing PersistenceUnitInfo [name: default]
+2021-03-23 17:16:02,343 INFO org.hibernate.Version [main] HHH000412: Hibernate ORM core version 5.4.29.Final
+2021-03-23 17:16:02,905 INFO org.hibernate.annotations.common.reflection.java.JavaReflectionManager [main] HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2021-03-23 17:16:03,996 INFO org.hibernate.dialect.Dialect [main] HHH000400: Using dialect: org.hibernate.dialect.Oracle10gDialect
+2021-03-23 17:16:09,128 INFO org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator [main] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-03-23 17:16:09,191 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [main] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2021-03-23 17:16:23,964 WARN org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration [main] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2021-03-23 17:16:28,763 INFO springfox.documentation.spring.web.PropertySourcedRequestMappingHandlerMapping [main] Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2021-03-23 17:16:33,099 INFO org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [main] Initializing ExecutorService 'applicationTaskExecutor'
+2021-03-23 17:16:39,815 INFO springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper [main] Context refreshed
+2021-03-23 17:16:40,149 INFO springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper [main] Found 1 custom documentation plugin(s)
+2021-03-23 17:16:41,277 INFO springfox.documentation.spring.web.scanners.ApiListingReferenceScanner [main] Scanning for api listing references
+2021-03-23 17:16:43,395 INFO springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator [main] Generating unique operation named: removeCustomerUsingDELETE_1
+2021-03-23 17:16:45,495 INFO org.springframework.boot.StartupInfoLogger [main] Started CustomerServiceTest in 69.097 seconds (JVM running for 78.662)
+2021-03-23 17:16:46,959 INFO com.cg.onlineshopping.service.CustomerServiceImpl [main] Customer addCustomer()
+2021-03-23 17:16:47,807 INFO com.cg.onlineshopping.service.CustomerServiceImpl [main] Customer updateCustomer()
+2021-03-23 17:16:47,871 INFO com.cg.onlineshopping.service.CustomerServiceImpl [main] Customer viewAllCustomer()
+2021-03-23 17:16:47,913 INFO com.cg.onlineshopping.service.CustomerServiceImpl [main] Customer viewCustomerById()
+2021-03-23 17:39:52,525 INFO org.springframework.boot.StartupInfoLogger [main] Starting CustomerServiceTest using Java 1.8.0_281 on DESKTOP-HKAVDRF with PID 4980 (started by Nilanjan Mukherjee in C:\Users\Nilanjan Mukherjee\Desktop\onlineshoppingapplication\onlineshoppingapplication)
+2021-03-23 17:39:52,550 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2021-03-23 17:39:59,868 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2021-03-23 17:40:00,717 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 782 ms. Found 7 JPA repository interfaces.
+2021-03-23 17:40:08,601 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Starting...
+2021-03-23 17:40:08,637 WARN com.zaxxer.hikari.util.DriverDataSource [main] Registered driver with driverClassName=oracle.jdbc.driver.OracleDriver was not found, trying direct instantiation.
+2021-03-23 17:40:11,932 INFO com.zaxxer.hikari.pool.PoolBase [main] HikariPool-1 - Driver does not support get/set network timeout for connections. (oracle.jdbc.driver.T4CConnection.getNetworkTimeout()I)
+2021-03-23 17:40:11,953 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Start completed.
+2021-03-23 17:40:12,909 INFO org.hibernate.jpa.internal.util.LogHelper [main] HHH000204: Processing PersistenceUnitInfo [name: default]
+2021-03-23 17:40:13,599 INFO org.hibernate.Version [main] HHH000412: Hibernate ORM core version 5.4.29.Final
+2021-03-23 17:40:13,974 INFO org.hibernate.annotations.common.reflection.java.JavaReflectionManager [main] HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2021-03-23 17:40:15,585 INFO org.hibernate.dialect.Dialect [main] HHH000400: Using dialect: org.hibernate.dialect.Oracle10gDialect
+2021-03-23 17:40:21,275 INFO org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator [main] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-03-23 17:40:21,379 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [main] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2021-03-23 17:40:32,109 WARN org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration [main] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2021-03-23 17:40:36,181 INFO springfox.documentation.spring.web.PropertySourcedRequestMappingHandlerMapping [main] Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2021-03-23 17:40:39,764 INFO org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [main] Initializing ExecutorService 'applicationTaskExecutor'
+2021-03-23 17:40:42,895 INFO springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper [main] Context refreshed
+2021-03-23 17:40:43,323 INFO springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper [main] Found 1 custom documentation plugin(s)
+2021-03-23 17:40:44,620 INFO springfox.documentation.spring.web.scanners.ApiListingReferenceScanner [main] Scanning for api listing references
+2021-03-23 17:40:47,191 INFO springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator [main] Generating unique operation named: removeCustomerUsingDELETE_1
+2021-03-23 17:40:48,448 INFO org.springframework.boot.StartupInfoLogger [main] Started CustomerServiceTest in 57.989 seconds (JVM running for 64.815)
+2021-03-23 17:40:50,033 INFO com.cg.onlineshopping.service.CustomerServiceImpl [main] Customer addCustomer()
+2021-03-23 17:40:51,132 INFO com.cg.onlineshopping.service.CustomerServiceImpl [main] Customer updateCustomer()
+2021-03-23 17:40:51,172 INFO com.cg.onlineshopping.service.CustomerServiceImpl [main] Customer viewAllCustomer()
+2021-03-23 17:40:51,210 INFO com.cg.onlineshopping.service.CustomerServiceImpl [main] Customer viewCustomerByLocation()
+2021-03-23 17:40:51,345 INFO com.cg.onlineshopping.service.CustomerServiceImpl [main] Customer viewCustomerById()
+2021-03-23 17:41:47,955 INFO org.springframework.boot.StartupInfoLogger [main] Starting CustomerServiceTest using Java 1.8.0_281 on DESKTOP-HKAVDRF with PID 12364 (started by Nilanjan Mukherjee in C:\Users\Nilanjan Mukherjee\Desktop\onlineshoppingapplication\onlineshoppingapplication)
+2021-03-23 17:41:47,997 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2021-03-23 17:41:54,778 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2021-03-23 17:41:55,608 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 775 ms. Found 7 JPA repository interfaces.
+2021-03-23 17:42:04,021 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Starting...
+2021-03-23 17:42:04,048 WARN com.zaxxer.hikari.util.DriverDataSource [main] Registered driver with driverClassName=oracle.jdbc.driver.OracleDriver was not found, trying direct instantiation.
+2021-03-23 17:42:07,125 INFO com.zaxxer.hikari.pool.PoolBase [main] HikariPool-1 - Driver does not support get/set network timeout for connections. (oracle.jdbc.driver.T4CConnection.getNetworkTimeout()I)
+2021-03-23 17:42:07,142 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Start completed.
+2021-03-23 17:42:07,636 INFO org.hibernate.jpa.internal.util.LogHelper [main] HHH000204: Processing PersistenceUnitInfo [name: default]
+2021-03-23 17:42:08,017 INFO org.hibernate.Version [main] HHH000412: Hibernate ORM core version 5.4.29.Final
+2021-03-23 17:42:08,422 INFO org.hibernate.annotations.common.reflection.java.JavaReflectionManager [main] HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2021-03-23 17:42:09,642 INFO org.hibernate.dialect.Dialect [main] HHH000400: Using dialect: org.hibernate.dialect.Oracle10gDialect
+2021-03-23 17:42:14,531 INFO org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator [main] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-03-23 17:42:14,723 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [main] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2021-03-23 17:42:23,137 WARN org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration [main] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2021-03-23 17:42:27,400 INFO springfox.documentation.spring.web.PropertySourcedRequestMappingHandlerMapping [main] Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2021-03-23 17:42:29,608 INFO org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [main] Initializing ExecutorService 'applicationTaskExecutor'
+2021-03-23 17:42:33,587 INFO springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper [main] Context refreshed
+2021-03-23 17:42:33,862 INFO springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper [main] Found 1 custom documentation plugin(s)
+2021-03-23 17:42:35,427 INFO springfox.documentation.spring.web.scanners.ApiListingReferenceScanner [main] Scanning for api listing references
+2021-03-23 17:42:37,961 INFO springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator [main] Generating unique operation named: removeCustomerUsingDELETE_1
+2021-03-23 17:42:39,720 INFO org.springframework.boot.StartupInfoLogger [main] Started CustomerServiceTest in 55.061 seconds (JVM running for 62.77)
+2021-03-23 17:42:40,577 INFO com.cg.onlineshopping.service.CustomerServiceImpl [main] Customer addCustomer()
+2021-03-23 17:42:41,648 INFO com.cg.onlineshopping.service.CustomerServiceImpl [main] Customer updateCustomer()
+2021-03-23 17:42:41,735 INFO com.cg.onlineshopping.service.CustomerServiceImpl [main] Customer viewAllCustomer()
+2021-03-23 17:42:41,807 INFO com.cg.onlineshopping.service.CustomerServiceImpl [main] Customer viewCustomerByLocation()
+2021-03-23 17:42:41,874 INFO com.cg.onlineshopping.service.CustomerServiceImpl [main] Customer viewCustomerById()
+2021-03-23 17:47:25,185 INFO org.springframework.boot.StartupInfoLogger [main] Starting CustomerServiceTest using Java 1.8.0_281 on DESKTOP-HKAVDRF with PID 9676 (started by Nilanjan Mukherjee in C:\Users\Nilanjan Mukherjee\Desktop\onlineshoppingapplication\onlineshoppingapplication)
+2021-03-23 17:47:25,215 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2021-03-23 17:47:32,673 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2021-03-23 17:47:33,369 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 647 ms. Found 7 JPA repository interfaces.
+2021-03-23 17:47:40,752 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Starting...
+2021-03-23 17:47:40,770 WARN com.zaxxer.hikari.util.DriverDataSource [main] Registered driver with driverClassName=oracle.jdbc.driver.OracleDriver was not found, trying direct instantiation.
+2021-03-23 17:47:43,266 INFO com.zaxxer.hikari.pool.PoolBase [main] HikariPool-1 - Driver does not support get/set network timeout for connections. (oracle.jdbc.driver.T4CConnection.getNetworkTimeout()I)
+2021-03-23 17:47:43,288 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Start completed.
+2021-03-23 17:47:44,149 INFO org.hibernate.jpa.internal.util.LogHelper [main] HHH000204: Processing PersistenceUnitInfo [name: default]
+2021-03-23 17:47:44,754 INFO org.hibernate.Version [main] HHH000412: Hibernate ORM core version 5.4.29.Final
+2021-03-23 17:47:45,090 INFO org.hibernate.annotations.common.reflection.java.JavaReflectionManager [main] HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2021-03-23 17:47:46,119 INFO org.hibernate.dialect.Dialect [main] HHH000400: Using dialect: org.hibernate.dialect.Oracle10gDialect
+2021-03-23 17:47:49,758 INFO org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator [main] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-03-23 17:47:50,210 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [main] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2021-03-23 17:48:01,573 WARN org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration [main] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2021-03-23 17:48:04,279 INFO springfox.documentation.spring.web.PropertySourcedRequestMappingHandlerMapping [main] Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2021-03-23 17:48:06,740 INFO org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [main] Initializing ExecutorService 'applicationTaskExecutor'
+2021-03-23 17:48:09,955 INFO springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper [main] Context refreshed
+2021-03-23 17:48:10,278 INFO springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper [main] Found 1 custom documentation plugin(s)
+2021-03-23 17:48:11,491 INFO springfox.documentation.spring.web.scanners.ApiListingReferenceScanner [main] Scanning for api listing references
+2021-03-23 17:48:12,979 INFO springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator [main] Generating unique operation named: removeCustomerUsingDELETE_1
+2021-03-23 17:48:13,825 INFO org.springframework.boot.StartupInfoLogger [main] Started CustomerServiceTest in 50.804 seconds (JVM running for 56.977)
+2021-03-23 17:48:14,843 INFO com.cg.onlineshopping.service.CustomerServiceImpl [main] Customer addCustomer()
+2021-03-23 17:48:15,396 INFO com.cg.onlineshopping.service.CustomerServiceImpl [main] Customer updateCustomer()
+2021-03-23 17:48:15,448 INFO com.cg.onlineshopping.service.CustomerServiceImpl [main] Customer viewAllCustomer()
+2021-03-23 17:48:15,472 INFO com.cg.onlineshopping.service.CustomerServiceImpl [main] Customer viewCustomerById()
+2021-03-23 17:59:36,343 INFO org.springframework.boot.StartupInfoLogger [main] Starting CustomerServiceTest using Java 1.8.0_281 on DESKTOP-HKAVDRF with PID 10216 (started by Nilanjan Mukherjee in C:\Users\Nilanjan Mukherjee\Desktop\onlineshoppingapplication\onlineshoppingapplication)
+2021-03-23 17:59:36,380 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2021-03-23 17:59:42,988 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2021-03-23 17:59:43,637 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 609 ms. Found 7 JPA repository interfaces.
+2021-03-23 17:59:51,862 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Starting...
+2021-03-23 17:59:51,888 WARN com.zaxxer.hikari.util.DriverDataSource [main] Registered driver with driverClassName=oracle.jdbc.driver.OracleDriver was not found, trying direct instantiation.
+2021-03-23 17:59:54,886 INFO com.zaxxer.hikari.pool.PoolBase [main] HikariPool-1 - Driver does not support get/set network timeout for connections. (oracle.jdbc.driver.T4CConnection.getNetworkTimeout()I)
+2021-03-23 17:59:54,916 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Start completed.
+2021-03-23 17:59:55,704 INFO org.hibernate.jpa.internal.util.LogHelper [main] HHH000204: Processing PersistenceUnitInfo [name: default]
+2021-03-23 17:59:56,408 INFO org.hibernate.Version [main] HHH000412: Hibernate ORM core version 5.4.29.Final
+2021-03-23 17:59:56,920 INFO org.hibernate.annotations.common.reflection.java.JavaReflectionManager [main] HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2021-03-23 17:59:58,030 INFO org.hibernate.dialect.Dialect [main] HHH000400: Using dialect: org.hibernate.dialect.Oracle10gDialect
+2021-03-23 18:00:02,272 INFO org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator [main] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-03-23 18:00:02,311 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [main] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2021-03-23 18:00:13,166 WARN org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration [main] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2021-03-23 18:00:17,546 INFO springfox.documentation.spring.web.PropertySourcedRequestMappingHandlerMapping [main] Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2021-03-23 18:00:21,190 INFO org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [main] Initializing ExecutorService 'applicationTaskExecutor'
+2021-03-23 18:00:25,287 INFO springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper [main] Context refreshed
+2021-03-23 18:00:25,586 INFO springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper [main] Found 1 custom documentation plugin(s)
+2021-03-23 18:00:26,808 INFO springfox.documentation.spring.web.scanners.ApiListingReferenceScanner [main] Scanning for api listing references
+2021-03-23 18:00:28,695 INFO springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator [main] Generating unique operation named: removeCustomerUsingDELETE_1
+2021-03-23 18:00:29,356 INFO org.springframework.boot.StartupInfoLogger [main] Started CustomerServiceTest in 55.045 seconds (JVM running for 61.777)
+2021-03-23 18:00:29,758 INFO com.cg.onlineshopping.service.CustomerServiceImpl [main] Customer viewCustomerByLocation()
+2021-03-23 18:00:29,870 INFO com.cg.onlineshopping.service.CustomerServiceImpl [main] Customer addCustomer()
+2021-03-23 18:00:30,359 INFO com.cg.onlineshopping.service.CustomerServiceImpl [main] Customer updateCustomer()
+2021-03-23 18:00:30,403 INFO com.cg.onlineshopping.service.CustomerServiceImpl [main] Customer viewAllCustomer()
+2021-03-23 18:00:30,455 INFO com.cg.onlineshopping.service.CustomerServiceImpl [main] Customer viewCustomerById()
+2021-03-23 18:00:58,648 INFO org.springframework.boot.StartupInfoLogger [main] Starting CustomerServiceTest using Java 1.8.0_281 on DESKTOP-HKAVDRF with PID 7772 (started by Nilanjan Mukherjee in C:\Users\Nilanjan Mukherjee\Desktop\onlineshoppingapplication\onlineshoppingapplication)
+2021-03-23 18:00:58,661 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2021-03-23 18:01:05,600 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2021-03-23 18:01:06,404 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 720 ms. Found 7 JPA repository interfaces.
+2021-03-23 18:01:13,688 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Starting...
+2021-03-23 18:01:13,709 WARN com.zaxxer.hikari.util.DriverDataSource [main] Registered driver with driverClassName=oracle.jdbc.driver.OracleDriver was not found, trying direct instantiation.
+2021-03-23 18:01:16,465 INFO com.zaxxer.hikari.pool.PoolBase [main] HikariPool-1 - Driver does not support get/set network timeout for connections. (oracle.jdbc.driver.T4CConnection.getNetworkTimeout()I)
+2021-03-23 18:01:16,481 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Start completed.
+2021-03-23 18:01:17,219 INFO org.hibernate.jpa.internal.util.LogHelper [main] HHH000204: Processing PersistenceUnitInfo [name: default]
+2021-03-23 18:01:18,041 INFO org.hibernate.Version [main] HHH000412: Hibernate ORM core version 5.4.29.Final
+2021-03-23 18:01:18,501 INFO org.hibernate.annotations.common.reflection.java.JavaReflectionManager [main] HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2021-03-23 18:01:19,443 INFO org.hibernate.dialect.Dialect [main] HHH000400: Using dialect: org.hibernate.dialect.Oracle10gDialect
+2021-03-23 18:01:23,689 INFO org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator [main] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-03-23 18:01:23,732 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [main] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2021-03-23 18:01:31,855 WARN org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration [main] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2021-03-23 18:01:37,279 INFO springfox.documentation.spring.web.PropertySourcedRequestMappingHandlerMapping [main] Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2021-03-23 18:01:40,954 INFO org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [main] Initializing ExecutorService 'applicationTaskExecutor'
+2021-03-23 18:01:44,132 INFO springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper [main] Context refreshed
+2021-03-23 18:01:44,465 INFO springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper [main] Found 1 custom documentation plugin(s)
+2021-03-23 18:01:45,178 INFO springfox.documentation.spring.web.scanners.ApiListingReferenceScanner [main] Scanning for api listing references
+2021-03-23 18:01:46,890 INFO springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator [main] Generating unique operation named: removeCustomerUsingDELETE_1
+2021-03-23 18:01:48,004 INFO org.springframework.boot.StartupInfoLogger [main] Started CustomerServiceTest in 51.75 seconds (JVM running for 58.482)
+2021-03-23 18:01:48,472 INFO com.cg.onlineshopping.service.CustomerServiceImpl [main] Customer viewCustomerByLocation()
+2021-03-23 18:01:48,682 INFO com.cg.onlineshopping.service.CustomerServiceImpl [main] Customer addCustomer()
+2021-03-23 18:01:49,146 INFO com.cg.onlineshopping.service.CustomerServiceImpl [main] Customer updateCustomer()
+2021-03-23 18:01:49,173 INFO com.cg.onlineshopping.service.CustomerServiceImpl [main] Customer viewAllCustomer()
+2021-03-23 18:01:49,195 INFO com.cg.onlineshopping.service.CustomerServiceImpl [main] Customer viewCustomerById()
+2021-03-23 18:05:21,128 INFO org.springframework.boot.StartupInfoLogger [main] Starting CustomerServiceTest using Java 1.8.0_281 on DESKTOP-HKAVDRF with PID 4256 (started by Nilanjan Mukherjee in C:\Users\Nilanjan Mukherjee\Desktop\onlineshoppingapplication\onlineshoppingapplication)
+2021-03-23 18:05:21,146 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2021-03-23 18:05:26,823 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2021-03-23 18:05:27,392 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 533 ms. Found 7 JPA repository interfaces.
+2021-03-23 18:05:33,718 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Starting...
+2021-03-23 18:05:33,739 WARN com.zaxxer.hikari.util.DriverDataSource [main] Registered driver with driverClassName=oracle.jdbc.driver.OracleDriver was not found, trying direct instantiation.
+2021-03-23 18:05:36,270 INFO com.zaxxer.hikari.pool.PoolBase [main] HikariPool-1 - Driver does not support get/set network timeout for connections. (oracle.jdbc.driver.T4CConnection.getNetworkTimeout()I)
+2021-03-23 18:05:36,289 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Start completed.
+2021-03-23 18:05:36,795 INFO org.hibernate.jpa.internal.util.LogHelper [main] HHH000204: Processing PersistenceUnitInfo [name: default]
+2021-03-23 18:05:37,203 INFO org.hibernate.Version [main] HHH000412: Hibernate ORM core version 5.4.29.Final
+2021-03-23 18:05:37,499 INFO org.hibernate.annotations.common.reflection.java.JavaReflectionManager [main] HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2021-03-23 18:05:38,518 INFO org.hibernate.dialect.Dialect [main] HHH000400: Using dialect: org.hibernate.dialect.Oracle10gDialect
+2021-03-23 18:05:41,892 INFO org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator [main] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-03-23 18:05:42,327 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [main] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2021-03-23 18:05:49,338 WARN org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration [main] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2021-03-23 18:05:51,723 INFO springfox.documentation.spring.web.PropertySourcedRequestMappingHandlerMapping [main] Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2021-03-23 18:05:55,327 INFO org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [main] Initializing ExecutorService 'applicationTaskExecutor'
+2021-03-23 18:05:57,838 INFO springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper [main] Context refreshed
+2021-03-23 18:05:58,080 INFO springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper [main] Found 1 custom documentation plugin(s)
+2021-03-23 18:05:58,849 INFO springfox.documentation.spring.web.scanners.ApiListingReferenceScanner [main] Scanning for api listing references
+2021-03-23 18:06:00,193 INFO springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator [main] Generating unique operation named: removeCustomerUsingDELETE_1
+2021-03-23 18:06:00,894 INFO org.springframework.boot.StartupInfoLogger [main] Started CustomerServiceTest in 42.551 seconds (JVM running for 49.532)
+2021-03-23 18:06:01,488 INFO com.cg.onlineshopping.service.CustomerServiceImpl [main] Customer viewCustomerByLocation()
+2021-03-23 18:06:01,992 INFO com.cg.onlineshopping.service.CustomerServiceImpl [main] Customer addCustomer()
+2021-03-23 18:06:02,035 INFO com.cg.onlineshopping.service.CustomerServiceImpl [main] Customer updateCustomer()
+2021-03-23 18:06:02,094 INFO com.cg.onlineshopping.service.CustomerServiceImpl [main] Customer viewAllCustomer()
+2021-03-23 18:06:02,147 INFO com.cg.onlineshopping.service.CustomerServiceImpl [main] Customer viewCustomerById()
+2021-03-23 20:43:13,755 INFO org.springframework.boot.StartupInfoLogger [main] Starting ProductServiceTest using Java 1.8.0_281 on DESKTOP-HKAVDRF with PID 10720 (started by Nilanjan Mukherjee in C:\Users\Nilanjan Mukherjee\Desktop\onlineshoppingapplication\onlineshoppingapplication)
+2021-03-23 20:43:13,809 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2021-03-23 20:43:20,037 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2021-03-23 20:43:20,641 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 508 ms. Found 7 JPA repository interfaces.
+2021-03-23 20:43:28,677 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Starting...
+2021-03-23 20:43:28,707 WARN com.zaxxer.hikari.util.DriverDataSource [main] Registered driver with driverClassName=oracle.jdbc.driver.OracleDriver was not found, trying direct instantiation.
+2021-03-23 20:43:31,020 INFO com.zaxxer.hikari.pool.PoolBase [main] HikariPool-1 - Driver does not support get/set network timeout for connections. (oracle.jdbc.driver.T4CConnection.getNetworkTimeout()I)
+2021-03-23 20:43:31,036 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Start completed.
+2021-03-23 20:43:31,662 INFO org.hibernate.jpa.internal.util.LogHelper [main] HHH000204: Processing PersistenceUnitInfo [name: default]
+2021-03-23 20:43:32,059 INFO org.hibernate.Version [main] HHH000412: Hibernate ORM core version 5.4.29.Final
+2021-03-23 20:43:32,438 INFO org.hibernate.annotations.common.reflection.java.JavaReflectionManager [main] HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2021-03-23 20:43:33,234 INFO org.hibernate.dialect.Dialect [main] HHH000400: Using dialect: org.hibernate.dialect.Oracle10gDialect
+2021-03-23 20:43:36,383 INFO org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator [main] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-03-23 20:43:36,441 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [main] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2021-03-23 20:43:41,768 WARN org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration [main] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2021-03-23 20:43:43,785 INFO springfox.documentation.spring.web.PropertySourcedRequestMappingHandlerMapping [main] Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2021-03-23 20:43:45,529 INFO org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [main] Initializing ExecutorService 'applicationTaskExecutor'
+2021-03-23 20:43:47,277 INFO springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper [main] Context refreshed
+2021-03-23 20:43:47,529 INFO springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper [main] Found 1 custom documentation plugin(s)
+2021-03-23 20:43:48,306 INFO springfox.documentation.spring.web.scanners.ApiListingReferenceScanner [main] Scanning for api listing references
+2021-03-23 20:43:49,319 INFO springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator [main] Generating unique operation named: removeCustomerUsingDELETE_1
+2021-03-23 20:43:49,865 INFO org.springframework.boot.StartupInfoLogger [main] Started ProductServiceTest in 38.695 seconds (JVM running for 45.724)
+2021-03-23 20:43:50,421 INFO com.cg.onlineshopping.service.ProductServiceImpl [main] Product addProduct()
