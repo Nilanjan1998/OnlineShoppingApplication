@@ -9,6 +9,8 @@ import javax.persistence.JoinColumn;
 import javax.persistence.OneToOne;
 import javax.persistence.SequenceGenerator;
 import javax.persistence.Table;
+import javax.validation.constraints.NotEmpty;
+import javax.validation.constraints.Size;
 
 @Entity
 @Table(name = "user_details")
@@ -21,9 +23,11 @@ public class User {
 	private int userId;
 
 	@Column(name = "password")
+	@Size(min=4, max=10,message="Password size should be minimum 4 and maximum 10")
 	private String password;
 
 	@Column(name = "role")
+	@NotEmpty(message="Role should not be Empty")
 	private String role;
 
 	// Mapping

@@ -16,6 +16,10 @@ import javax.persistence.ManyToMany;
 import javax.persistence.ManyToOne;
 import javax.persistence.SequenceGenerator;
 import javax.persistence.Table;
+import javax.validation.constraints.Min;
+import javax.validation.constraints.NotEmpty;
+import javax.validation.constraints.NotNull;
+import javax.validation.constraints.Size;
 
 import com.fasterxml.jackson.annotation.JsonIgnore;
 
@@ -29,30 +33,37 @@ public class Product {
 	@Column(name = "product_id")
 	private int productId;
 
+	
 	@Column(name = "product_name")
+	@NotNull(message="Product name should not be null")
 	private String productName;
 
 	@Column(name = "price")
+	//@NotEmpty(message="Price should not be empty")
 	private double price;
 
 	@Column(name = "color")
+	@NotNull(message="Product color should not be null")
 	private String color;
 
 	@Column(name = "dimension")
+	@NotNull(message="Product dimension should not be null")
 	private String dimension;
 
 	@Column(name = "specification")
+	@NotEmpty(message="Product specification should not be empty")
 	private String specification;
 
 	@Column(name = "manufacturer")
+	@NotEmpty(message="Product manufacturer should not be empty")
 	private String manufacturer;
 
 	@Column(name = "quantity")
+	@Min(value=1,message="Quantity should be greater than zero")
 	private int quantity;
 
 
 	//Mapping
-	@JsonIgnore
 	@ManyToOne
 	@JoinColumn(name = "cat_id")
 	private Category category;
@@ -61,7 +72,6 @@ public class Product {
 	@ManyToMany(fetch = FetchType.LAZY, mappedBy = "products")
 	private List<Order> order = new ArrayList<Order>();
 
-	@JsonIgnore
 	@ManyToOne
 	@JoinColumn(name = "cart_id")
 	private Cart cart;

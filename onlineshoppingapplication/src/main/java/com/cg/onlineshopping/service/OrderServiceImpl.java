@@ -57,7 +57,7 @@ public class OrderServiceImpl implements OrderService {
 	public Order removeOrder(int orderId) {
 		logger.info("Order removeOrder()");
 		Optional<Order> order = orderRepo.findById(orderId);
-		if(order.isPresent())
+		if(!order.isPresent())
 			throw new OrderNotFoundException("Order Not Found");
 		else {
 			orderRepo.delete(order.get());
@@ -90,9 +90,7 @@ public class OrderServiceImpl implements OrderService {
 	@Override
 	public List<Order> viewAllOrdersByLocation(String location) {
 		logger.info("Order viewAllOrdersByLocation()");
-		int custId = orderRepo.viewAllCustomersByLocation(location);
-        Customer cust = custRepo.findById(custId).get();
-        List<Order> list = new ArrayList<>(cust.getProducts());
+		List<Order> list= orderRepo.viewAllCustomersByLocation(location);
         if(list.isEmpty())
         	throw new OrderNotFoundException("Order Not Found");
         else

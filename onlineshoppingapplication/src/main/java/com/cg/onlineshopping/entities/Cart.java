@@ -34,7 +34,6 @@ public class Cart {
 	@OneToMany(fetch = FetchType.EAGER, mappedBy = "cart")
 	Set<Product> product = new HashSet<>();
 
-	@JsonIgnore
 	@OneToOne
 	@JoinColumn(name = "customer_id")
 	private Customer customerCart;

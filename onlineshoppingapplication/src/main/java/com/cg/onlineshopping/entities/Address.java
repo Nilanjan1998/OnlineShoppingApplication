@@ -14,6 +14,8 @@ import javax.persistence.OneToMany;
 import javax.persistence.OneToOne;
 import javax.persistence.SequenceGenerator;
 import javax.persistence.Table;
+import javax.validation.constraints.NotEmpty;
+import javax.validation.constraints.Size;
 
 import com.fasterxml.jackson.annotation.JsonIgnore;
 
@@ -28,21 +30,27 @@ public class Address {
 	private int addressId;
 
 	@Column(name = "street_no")
+	@NotEmpty(message="Stree_no should not empty")
 	private String streetNo;
 
 	@Column(name = "building_name")
+	@NotEmpty(message="Building Name should not empty")
 	private String buildingName;
 
 	@Column(name = "city")
+	@NotEmpty(message="City should not empty")
 	private String city;
 
 	@Column(name = "state")
+	@NotEmpty(message="State should not empty")
 	private String state;
 
 	@Column(name = "country")
+	@NotEmpty(message="Country should not empty")
 	private String country;
 
 	@Column(name = "pincode")
+	@Size(min=6, max=10, message="Pincode should minimum be 6 and maximum 10")
 	private String pincode;
 
 	// Mapping Part
@@ -50,7 +58,6 @@ public class Address {
 	@OneToMany(fetch = FetchType.EAGER, mappedBy = "addressOrder")
 	private List<Order> order = new ArrayList<Order>();
 
-	@JsonIgnore
 	@OneToOne
 	@JoinColumn(name = "customer_id")
 	private Customer customerAdd;

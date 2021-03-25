@@ -3,6 +3,8 @@ package com.cg.onlineshopping.controller;
 
 import java.util.List;
 
+import javax.validation.Valid;
+
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -36,7 +38,7 @@ public class CustomerRestController {
 	}
 
 	@PostMapping("/customer")
-	public Customer addCustomer(@RequestBody Customer cust){
+	public Customer addCustomer(@Valid @RequestBody Customer cust){
 		logger.info("Customer addCustomer()");
 		Customer customers = customerService.addCustomer(cust);
 		return customers;
@@ -61,7 +63,7 @@ public class CustomerRestController {
         return customerService.ViewAllCustomers(custAddress);
     }*/
 	@PutMapping("/customer")
-	public Customer updateCustomer(@RequestBody Customer cust){
+	public Customer updateCustomer(@Valid@RequestBody Customer cust){
 		logger.info("Customer updateCustomer()");
 		Customer customers = customerService.updateCustomer(cust);
 		return customers;

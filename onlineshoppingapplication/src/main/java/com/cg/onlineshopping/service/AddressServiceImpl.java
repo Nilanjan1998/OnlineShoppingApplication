@@ -71,7 +71,6 @@ public class AddressServiceImpl implements AddressService {
 		if(!viewAdd.isPresent())
 			throw new AddressNotFoundException("Address Not Found");
 		else {
-			addRepo.deleteById(addId);
 			return viewAdd.get();
 		}
 	}

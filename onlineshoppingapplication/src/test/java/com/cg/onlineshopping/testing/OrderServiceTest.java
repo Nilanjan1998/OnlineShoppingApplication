@@ -130,7 +130,7 @@ public class OrderServiceTest {
 		assertThat(orderService.viewAllOrderById(order.getOrderId())).isEqualTo(order);
 	}
 	
-	/*@Test
+	@Test
 	public void testOrderByLocation()
 	{
 		Order order1 = new Order();
@@ -156,7 +156,8 @@ public class OrderServiceTest {
 		order2.setAddressOrder(add2);
 		List<Order> orderList = new ArrayList<>();
 		orderList.add(order1); orderList.add(order2);
-		//Mockito.when(orderRepo.viewAllCustomersByLocation("Kolkata")).thenReturn(cust1);
+		
+		Mockito.when(orderRepo.viewAllCustomersByLocation(orderList.get(0).getCustomerOrder().getAddress())).thenReturn(orderList);
 		assertThat(orderService.viewAllOrdersByLocation(orderList.get(0).getCustomerOrder().getAddress())).isEqualTo(orderList);
-	}*/
+	}
 }

@@ -12,6 +12,7 @@ import javax.persistence.Id;
 import javax.persistence.OneToMany;
 import javax.persistence.SequenceGenerator;
 import javax.persistence.Table;
+import javax.validation.constraints.NotEmpty;
 
 import com.fasterxml.jackson.annotation.JsonIgnore;
 
@@ -26,6 +27,7 @@ public class Category {
 	private int catId;
 
 	@Column(name = "category_name")
+	@NotEmpty(message="Category Name should not be empty")
 	private String categoryName;
 
 	// Mapping

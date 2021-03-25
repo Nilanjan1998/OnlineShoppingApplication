@@ -22,6 +22,7 @@ import com.cg.onlineshopping.entities.Cart;
 import com.cg.onlineshopping.entities.Category;
 import com.cg.onlineshopping.entities.Customer;
 import com.cg.onlineshopping.entities.Product;
+import com.cg.onlineshopping.exception.ProductNotFoundException;
 import com.cg.onlineshopping.repository.ProductRepository;
 import com.cg.onlineshopping.service.ProductService;
 
@@ -34,7 +35,13 @@ public class ProductServiceTest {
 	
 	@MockBean
 	ProductRepository productRepo;
-	
+	@Test
+	public void testGetProductsException() throws ProductNotFoundException{
+	       int id = 5005;
+	       assertThrows(ProductNotFoundException.class, () -> productService.viewProduct(id));
+	       System.out.println("Product Id cannot be retervied");
+	  
+	   }
 	@Test
 	public void addProduct()
 	{
@@ -191,7 +198,6 @@ public class ProductServiceTest {
 		List<Product> product = new ArrayList<>();
 		product.add(product1); product.add(product2);
 		Mockito.when(productRepo.findAll()).thenReturn(product);
-		
 		assertThat(productService.viewAllProducts()).isEqualTo(product);
 	}
 	

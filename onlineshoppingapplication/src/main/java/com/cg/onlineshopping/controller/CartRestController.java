@@ -2,6 +2,8 @@ package com.cg.onlineshopping.controller;
 
 import java.util.List;
 
+import javax.validation.Valid;
+
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.DeleteMapping;
 import org.springframework.web.bind.annotation.GetMapping;
@@ -30,7 +32,7 @@ public class CartRestController {
 	{
 		return cartService.addProductToCart(cart, product, quantity);
 	}*/
-	public Cart addCart(@RequestBody Cart cart)
+	public Cart addCart(@Valid@RequestBody Cart cart)
 	{
 		return cartService.addCart(cart);
 	}
@@ -52,10 +54,10 @@ public class CartRestController {
 	{
 		return cartService.updateProductQuantity(cart, p, quantity);
 	}*/
-	@DeleteMapping("/cart")
-	public Cart removeCart(@RequestBody Cart cart)
+	@DeleteMapping("/cart/{cartId}")
+	public Cart removeCart(@PathVariable("customerId") int cartId)
 	{
-		return cartService.removeCart(cart);
+		return cartService.removeCart(cartId);
 	}
 	@GetMapping("/cart/{customerId}")
 	public Cart viewAllProducts(@PathVariable("customerId")int customerId)

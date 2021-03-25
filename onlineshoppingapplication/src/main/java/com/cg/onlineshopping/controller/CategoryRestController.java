@@ -2,6 +2,8 @@ package com.cg.onlineshopping.controller;
 
 import java.util.List;
 
+import javax.validation.Valid;
+
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.DeleteMapping;
 import org.springframework.web.bind.annotation.GetMapping;
@@ -23,7 +25,7 @@ public class CategoryRestController {
 	CategoryRepository catRepo;
 	
 	@PostMapping("/category")
-	public Category addCategory(@RequestBody Category cat)
+	public Category addCategory(@Valid@RequestBody Category cat)
 	{
 		catRepo.save(cat);
 		return cat;
@@ -36,7 +38,7 @@ public class CategoryRestController {
 	}
 	
 	@PutMapping("/category")
-	public Category updateCategory(@RequestBody Category cat)
+	public Category updateCategory(@Valid@RequestBody Category cat)
 	{
 		catRepo.save(cat);
 		return cat;

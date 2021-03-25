@@ -3,6 +3,8 @@ package com.cg.onlineshopping.controller;
 import java.util.List;
 import java.util.Optional;
 
+import javax.validation.Valid;
+
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -26,13 +28,13 @@ public class ProductRestController {
 	ProductService productService;
 	Logger logger = LoggerFactory.getLogger(ProductRestController.class);
 	@PostMapping("/product")
-	public Product addProduct(@RequestBody Product product)
+	public Product addProduct(@Valid@RequestBody Product product)
 	{
 		logger.info("Product addProduct()");
 		return productService.addProduct(product);
 	}
 	
-	@GetMapping("/product")
+	//@GetMapping("/product")
 	/*public List<Product> viewAllProduct()
 	{
 		logger.info("Product viewAllProduct()");
@@ -42,7 +44,7 @@ public class ProductRestController {
 	
 	
 	@PutMapping("/product")
-	public Product updateProduct(@RequestBody Product product)
+	public Product updateProduct(@Valid@RequestBody Product product)
 	{
 		logger.info("Product updateProduct()");
 		return productService.updateProduct(product);

@@ -2,6 +2,8 @@ package com.cg.onlineshopping.controller;
 
 import java.util.List;
 
+import javax.validation.Valid;
+
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -28,7 +30,7 @@ public class AddressRestController {
 	Logger logger = LoggerFactory.getLogger(AddressRestController.class);
 	
 	@PostMapping("/address")
-	public Address addAddress(@RequestBody Address add)
+	public Address addAddress(@Valid@RequestBody Address add)
 	{
 		logger.info("Address addAddress()");
 		return addService.addAddress(add);
@@ -48,7 +50,7 @@ public class AddressRestController {
 		return addService.viewAddress(addId);
 	}
 	@PutMapping("/address")
-	public Address updateAddress(@RequestBody Address add)
+	public Address updateAddress(@Valid@RequestBody Address add)
 	{
 		logger.info("Address updateAddress()");
 		return addService.updateAddress(add);

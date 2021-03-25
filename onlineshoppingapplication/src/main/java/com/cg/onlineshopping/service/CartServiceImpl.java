@@ -29,6 +29,7 @@ public class CartServiceImpl implements CartService {
 	}*/
 	public Cart addCart(Cart cart)
 	{
+		
 		if(cart == null)
 			throw new CartNotFoundException("Cart Not Found");
 		else {
@@ -37,8 +38,9 @@ public class CartServiceImpl implements CartService {
 		}
 	}
 	@Override
-	public Cart removeCart(Cart cart)
+	public Cart removeCart(int cartId)
 	{
+		Cart cart = cartRepo.findById(cartId).get();
 		if(cart == null)
 			throw new CartNotFoundException("Cart Not Found");
 		else {
@@ -50,7 +52,7 @@ public class CartServiceImpl implements CartService {
 	@Override
 	public Cart viewCustomer(int customerId)
 	{
-		Cart cart = cartRepo.viewCartByCustomerId(customerId);
+		Cart cart =cartRepo.viewCartByCustomerId(customerId);
 		if(cart==null)
 			throw new CartNotFoundException("Cart Not Found");
 		else

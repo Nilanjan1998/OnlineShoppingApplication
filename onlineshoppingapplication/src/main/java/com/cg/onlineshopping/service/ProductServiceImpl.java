@@ -29,7 +29,7 @@ public class ProductServiceImpl implements ProductService {
 		//System.out.println(productRepo.findAll().size());
 		logger.info("Product viewAllProduct()");
 		List<Product> products = productRepo.findAll();
-		if(!products.isEmpty())
+		if(products.isEmpty())
 			throw new ProductNotFoundException("ProductNotFound");
 		else
 			return products;

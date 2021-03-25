@@ -32,7 +32,7 @@ public class LoginServiceImpl implements LoginService {
 	public User removeUser(int userId) {
 		logger.info("User removeUser()");
 		Optional<User> user = loginRepo.findById(userId);
-		if(user.isPresent())
+		if(!user.isPresent())
 			throw new UserNotFoundException("User Not Found");
 		else {
 			loginRepo.delete(user.get());
